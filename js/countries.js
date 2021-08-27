@@ -33,7 +33,7 @@ const displayCountries = countries => {
             <h5>${country.name}</h5>
             <img src="${country.flag}">
             
-            <button class="btn btn-info mt-2" onclick="loadDeteles( '${country.name}')" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Detitles</button>
+            <button class="btn btn-info mt-2" onclick="loadDeteles( '${country.name}')" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Details</button>
         `
 
 
